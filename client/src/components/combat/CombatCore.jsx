@@ -6,6 +6,7 @@ import { useReducer, useContext, useEffect } from "react";
 import { globalContext } from "../../App";
 
 const CombatCore = ({ enemy, setEnemy }) => {
+  // initialize the player
   const { player, setPlayer } = useContext(globalContext);
 
   // Combat turn controller for reducer
